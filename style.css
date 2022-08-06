@@ -1,0 +1,217 @@
+/*  */
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+label,
+input,
+textarea,
+button {
+  border: none;
+  outline: none;
+  padding: 5px;
+  display: block;
+}
+textarea {
+  resize: vertical;
+}
+/* asset */
+/* color */
+.p1 {
+  background-color: #204782;
+}
+.w1 {
+  background-color: orange;
+}
+.s1 {
+  background-color: #2a2a2a;
+}
+.txtlight {
+  color: #fff;
+}
+.txtwarning {
+  color: rgb(228, 139, 23);
+}
+/*  */
+/* NAVBAR */
+
+.navbar {
+  width: 100%;
+  height: 60px;
+}
+.navbar .brand span {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.navbar .brand {
+  float: left;
+  margin: 0 10px 0 20px;
+  line-height: 60px;
+}
+.navbar .menu {
+  float: right;
+}
+.navbar .menu ul li {
+  display: inline-block;
+  margin: 0 20px 0 10px;
+  line-height: 30px;
+}
+.navbar .menu ul li a {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.navbar .menu ul li a:hover {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgb(255, 102, 0);
+}
+/*  */
+/* HERO */
+main {
+  padding: 40px;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-image: url("/hero.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-position: 0 50%;
+  padding: 20px 0 0 20px;
+}
+.hero span {
+  text-align: center;
+  font-size: 30px;
+  display: table;
+  margin: 20px auto;
+}
+.hero form {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 20px;
+}
+.form_group label,
+.form_group input,
+.form_group textarea {
+  margin: 10x;
+}
+.hero .form_group input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.form_group button {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0 0 0;
+  color: #fff;
+  font-size: 14px;
+}
+.form_group button:hover {
+  width: 100%;
+  height: 50px;
+  margin: 20px 0 0 0;
+  color: #fff;
+  font-size: 14px;
+  background-color: #122644;
+}
+/*  */
+/* ABOUT */
+#about {
+  padding: 20px 0 20px 0;
+  width: 100%;
+}
+#about p {
+  max-width: 850px;
+  line-height: 1.8;
+}
+/*  */
+/* QUOTES */
+#quotes {
+  margin-top: -20px;
+  width: 100%;
+}
+.quotes_card {
+  position: relative;
+  height: 500px;
+  margin: 20px 0px;
+}
+.quotes_card p {
+  position: absolute;
+  top: 80px;
+  left: 160px;
+  font-size: 24px;
+  max-width: 400px;
+  font-family: serif;
+  line-height: 1.8;
+}
+.quotes_card img {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  object-fit: cover;
+}
+/*  */
+/* FOOTER */
+/* footer {
+  width: 100%;
+  height: 60px;
+}
+footer span {
+  display: table;
+  margin: auto;
+  line-height: 60px;
+} */
+
+/*  */
+/*  */
+/*  */
+
+.comment {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  width: 100%;
+}
+.container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 950px;
+  height: 500px;
+}
+.container p {
+  margin: -15px 0 20px 0;
+}
+.container button {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 30px;
+}
+.container button:hover {
+  border: none;
+  outline: none;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(228, 124, 5);
+}
